@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: 'Roboto', sans-serif;
+ /* background-color: rgba(0, 0, 0, 0.4); */
+ margin: 0rem 20rem 0rem 20rem;
+
+}
+
+.quantity,
+.quantityS,
+.quantityC {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+.div1,
+.div2,
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vh;
+}
+
+.bag,
+.shoes,
+.clock {
+  display: flex;
+}
+
+.c {
+  color: orange;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+img {
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 50vh;
+}
+
+button {
+  border: none;
+  font-size: 1rem;
+}
+button:hover{
+    background-color: gray;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.removeBagBtn, .removeShoesBtn, .removeClockBtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(206, 122, 122);
+    color: white;
+}
+.removeBagBtn:hover, .removeShoesBtn:hover, .removeClockBtn:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quantity,
+.quantityS,
+.quantityC {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 5px;
+  height: 1rem;
+}
+
+.kdvToplam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+.footer{
+
+    display: flex;
+    justify-content:space-between ;
+    width:100vh;
+    border-top:1px solid lightgray;
+   margin-bottom:0.5rem ;
+
+}

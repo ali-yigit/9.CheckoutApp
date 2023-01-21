@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="sepet-style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bag">
+        <img class="" src="assets/img/photo1.png" alt="" />
+        <div class="div1">
+          <h2>Vintage Backbag</h2>
+          <p><span class="c">$25.98</span> <del>34.99</del></p>
+          <div class="quantity">
+            <button class="minus" onClick="decBag()">-</button>
+            <p class="amount">1</p>
+            <button class="plus" onClick="incBag()">+</button>
+          </div>
+          <p class="toplam">Product Total: $ 25.98</p>
+          <button class="removeBagBtn">Remove</button>
+        </div>
+      </div>
+
+      <div class="shoes">
+        <img class="" src="assets/img/photo2.png" alt="" />
+        <div class="div2">
+          <h2>Levi Shoes</h2>
+          <p><span class="c">$45.99</span> <del>54.99</del></p>
+          <div class="quantityS">
+            <button class="minusS" onClick="decShoes()">-</button>
+            <p class="amountS">1</p>
+            <button class="plusS" onClick="incShoes()">+</button>
+          </div>
+          <p class="toplamS">Product Total: $ 45.99</p>
+          <button class="removeShoesBtn">Remove</button>
+        </div>
+      </div>
+
+      <div class="clock">
+        <img class="" src="assets/img/photo3.jpg" alt="" />
+        <div class="div3">
+          <h2>Antique Clock</h2>
+          <p><span class="c">$74.99 </span> <del>94.99</del></p>
+
+          <div class="quantityC">
+            <button class="minusC" onClick="decClock()">-</button>
+            <p class="amountC">1</p>
+            <button class="plusC" onClick="incClock()">+</button>
+          </div>
+          <p class="toplamC">Product Total: $ 74.99</p>
+          <button class="removeClockBtn">Remove</button>
+        </div>
+      </div>
+
+      <div class="kdvToplam">
+        <div class="footer">
+          <span>Subtotal</span>
+          <span class="subtotal"> $146.96 </span>
+        </div>
+        <div class="footer">
+          <span>Tax(%18)</span>
+          <span class="tax">$26.95</span>
+        </div>
+        <div class="footer">
+          <span>Shipping</span>
+          <span class="shipping">$15.00</span>
+        </div>
+        <div class="footer">
+          <span>Total</span>
+          <span class="grand-total">$188.91</span>
+        </div>
+      </div>
+
+
+      <p class="grand-total"></p>
+
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
